@@ -10,7 +10,14 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.h1`
-  color: blue;
+  color: #301fc7;
   /* padding-top: 20px; */
   text-transform: uppercase;
+`;
+
+export const ContainerImg = styled.div`
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 16px;
+  padding-bottom: 24px;
 `;
